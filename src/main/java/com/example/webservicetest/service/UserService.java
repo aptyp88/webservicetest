@@ -17,9 +17,8 @@ public class UserService {
                 .orElseThrow(() -> new NotFoundException("User not found"));
     }
 
-    public void createUser() {
-        UserEntity userEntity = new UserEntity(null, "Test", "Test", "email@mail.com", "9782742871");
-        userRepository.save(userEntity);
+    public UserEntity saveUser(UserEntity userEntity) {
+        return userRepository.save(userEntity);
     }
 
 }
