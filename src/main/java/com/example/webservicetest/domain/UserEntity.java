@@ -1,10 +1,8 @@
 package com.example.webservicetest.domain;
 
 import lombok.Data;
-import org.springframework.validation.annotation.Validated;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.Set;
 
 @Entity

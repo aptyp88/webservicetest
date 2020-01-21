@@ -1,6 +1,5 @@
 package com.example.webservicetest.rest;
 
-import com.example.webservicetest.domain.UserEntity;
 import com.example.webservicetest.dto.User;
 import com.example.webservicetest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
